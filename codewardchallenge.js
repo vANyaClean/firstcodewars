@@ -35,7 +35,7 @@ return opposite;
   //your code here
 }
 
-
+return "You're a(n) " + (age<13?"kid":age>=13?"teenager":age>17&&age<65?"adult":"elderly");
 function describeAge(age) {
 var r = "You're a(n) ";
   if (age <= 12) {
