@@ -1,51 +1,32 @@
- function move (position, roll) {
-return (position + (roll*2));
-  // return the new position
-}https://www.codewars.com/kata/563a631f7cbbc236cf0000c2/train/javascript
+https://www.codewars.com/kata/57f781872e3d8ca2a000007e
+function maps(x){
+return x.map(n => n*2);
 
-
-
-function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
-return (laLigaGoals + copaDelReyGoals + championsLeagueGoals);
-  // code goes here
-}https://www.codewars.com/kata/55f73be6e12baaa5900000d4
-
-
-
-function greet (name, owner) {
-  if(name===owner){
-  return('Hello boss')
-  } 
- else{
- return('Hello guest')
- }
-}
-https://www.codewars.com/kata/5772da22b89313a4d50012f7
-
-
-function litres(time) 
-  return Math.floor(time*0.5);
-}
-https://www.codewars.com/kata/582cb0224e56e068d800003c
-
-
-function opposite(number) {
-const opposite= -number;
-return opposite;
-  //your code here
 }
 
-return "You're a(n) " + (age<13?"kid":age>=13?"teenager":age>17&&age<65?"adult":"elderly");
-function describeAge(age) {
-var r = "You're a(n) ";
-  if (age <= 12) {
-    return  r+"kid";
-  } else if (age >= 13 && age <= 17) {
-    return r+"teenager";
-  } else if (age >= 18 && age <= 64) {
-    return r+"adult";
-  } else {
-    return r+"elderly";
-  }
+https://www.codewars.com/kata/5556282156230d0e5e000089
+function DNAtoRNA(dna) {
+return dna.replace(/T/g, "U");
+  // create a function which returns an RNA sequence from the given DNA sequence
 }
-https://www.codewars.com/kata/56f3f6a82010832b02000f38
+
+https://www.codewars.com/kata/577a98a6ae28071780000989
+var min = function(list){  
+    return Math.min(...list);
+}
+
+var max = function(list){;
+    return Math.max(...list);
+}
+
+https://www.codewars.com/kata/57e76bc428d6fbc2d500036d
+function stringToArray(string){
+let separ = " ";
+const splitarray = string.split(separ); 
+ return splitarray;
+ 
+  // code code code
+
+}
+решта не зробив. не розібрався бо не мав часу
+24 години в дорозі
