@@ -30,3 +30,22 @@ const splitarray = string.split(separ);
 }
 решта не зробив. не розібрався бо не мав часу
 24 години в дорозі
+
+
+Mінімальне значення масиву
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+  return Math.min(...args);
+    
+  }
+}
+
+Довжина кола
+function circleCircumference(circle) {
+return circle.radius * 2 * Math.PI ;
+
+}
+
+
+
+
